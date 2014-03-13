@@ -1,6 +1,6 @@
 class Fixnum
   
-  Conversion = {
+  CONVERSION = {
                 0 => "zero",
                 1 => "uno",
                 2 => "due",
