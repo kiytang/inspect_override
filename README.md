@@ -14,6 +14,6 @@ To override the method "inspect" so that it returns its word equivalent for numb
 * 11.inspect 	=> "11"
 
 ###Other details
-* In my version I opted to use Italian word equivalents for the ranges, as part of my continued learnig of the Itlaian language. 
+* In my version I opted to use Italian word equivalents for the ranges, as part of my continued learnig of the Italian language. 
 
 * The test was set by Evgeny Shadnev [@shadnev](https://github.com/shadnev)
