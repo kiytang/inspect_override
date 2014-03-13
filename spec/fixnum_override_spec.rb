@@ -1,3 +1,5 @@
+require "fixnum_override"
+
 describe Fixnum do
 	
 	it "should convert 0 into zero" do

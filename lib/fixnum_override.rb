@@ -1,4 +1,5 @@
 class Fixnum
+  
   Conversion = {
                 0 => "zero",
                 1 => "uno",
@@ -8,12 +9,12 @@ class Fixnum
                 5 => "cinque",
                 6 => "sei",
                 7 => "sette",
-                8 => "otto"
+                8 => "otto",
                 9 => "nove",
   }
 
   def inspect 
-    C
-
+    CONVERSION.has_key?(self) ? CONVERSION[self] : self.to_s
+  end
 
 end
